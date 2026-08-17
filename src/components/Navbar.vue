@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">
-      <img src="" id="logo">
+    <router-link to="/" id="logo-url">
+      <img :src="logo" :alt="alt" id="logo">
     </router-link>
     <router-link to="/">Home</router-link> |
     <router-link to="/pedidos">Pedidos</router-link>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style scoped>
-  /* #nav {
+  #nav {
     background-color: #222;
     border-bottom: 4px solid #111;
     padding: 15px 50px;
@@ -45,5 +45,5 @@ export default {
 
   #nav a:hover {
     color: #FFF;
-  } */
+  }
 </style>
