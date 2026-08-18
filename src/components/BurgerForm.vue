@@ -1,8 +1,7 @@
 <template>
   <div>
     <Message :msg="msg" v-show="msg" />
-    <div>      
-      <!-- <form id="burger-form" method="POST" @submit="createBurger"> -->
+    <div>
       <form id="burger-form" @submit="createBurger">
         <div class="input-container">
           <label for="nome">Nome do cliente:</label>

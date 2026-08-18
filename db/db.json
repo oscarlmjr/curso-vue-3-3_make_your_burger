@@ -101,20 +101,8 @@
         "Salame",
         "Tomate"
       ],
-      "status": "Em produção",
+      "status": "Finalizado",
       "id": 2
-    },
-    {
-      "nome": "Paulo Matias",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Cheddar",
-        "Tomate",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 5
     },
     {
       "nome": "Zenildo",
@@ -135,7 +123,7 @@
         "Bacon",
         "Pepino"
       ],
-      "status": "Em produção",
+      "status": "Finalizado",
       "id": 7
     }
   ]
