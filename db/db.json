@@ -90,7 +90,7 @@
         "Bacon",
         "Pepino"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 1
     },
     {
@@ -101,7 +101,7 @@
         "Salame",
         "Tomate"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 2
     },
     {
@@ -124,8 +124,19 @@
         "Bacon",
         "Cebola roxa"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 6
+    },
+    {
+      "nome": "Jurandir",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Pepino"
+      ],
+      "status": "Em produção",
+      "id": 7
     }
   ]
 }
